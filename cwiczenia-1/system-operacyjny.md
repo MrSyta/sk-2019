@@ -27,8 +27,5 @@ Konfiguracja połączenia sieciowego
 Schemat sieci
 -------------
 
-aby załączyć obrazek 
-
-
 ![alt schemat](https://github.com/MrSyta/sk-2019/blob/master/siec.png)
 

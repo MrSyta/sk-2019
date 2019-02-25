@@ -11,7 +11,7 @@ Wejściowe parametry sieci
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-|   PC 1 |  
+|   PC 1 | Centos7 
 | IP - address  |192.168.100.5|
 | MASKA  | /24 |
 |   |  | |

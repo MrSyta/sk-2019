@@ -11,11 +11,11 @@ Wejściowe parametry sieci
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-|   PC 1 | Centos7 
+|   PC 1 | CentOS-7 
 | IP - address  |192.168.100.5|
 | MASKA  | /24 |
 |   |  | |
-| PC 2  |  | |
+| PC 2  | CentOS-7 | |
 | IP - address  |192.168.100.4|
 | MASKA  | /24 |
 

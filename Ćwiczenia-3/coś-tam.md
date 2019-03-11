@@ -42,7 +42,7 @@ Zadanie
 ------------
 
 ![zadanie 3](cwiczenia3.svg)
-![].(https://github.com/MrSyta/sk-2019/blob/master/%C4%86wiczenia-3/obrazek.png)
+![](https://github.com/MrSyta/sk-2019/blob/master/%C4%86wiczenia-3/obrazek.png)
 
 1.
    * Przygotuj konfigurację sieci zgodnie z powyższym diagramem, 

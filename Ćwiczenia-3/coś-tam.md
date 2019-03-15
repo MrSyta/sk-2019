@@ -29,8 +29,7 @@ ip
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
 |   ``link``    |     ip link set dev eth0 down | służy do konfigurowania, włączania i zarządzania urządzeniami sieciowymi oraz urządzeniami wirtualnymi warstwy sieci |
 |   ``route``   | ip route add default via 192.168.0.1 | służy do zarządzania tablicami routingu wewnątrz jądra. Pozwala na dodawanie, usuwanie i modyfikowanie tras. Składnia polecenia wyświetlana za pomocą polecenia `ip route help`: |
-|   ``maddr``   | ip maddr [ add | del ] MULTIADDR dev STRING ip maddr show [ dev STRING ] | Multicast addresses management.
-maddress can be abbreviated to m or maddr |
+|   ``maddr``   | ip maddr [ add | del ] MULTIADDR dev STRING | Multicast addresses management |
 |   ``neigh``   |  | |
 |   ``help``    |  | |
 

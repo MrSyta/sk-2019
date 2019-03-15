@@ -25,17 +25,17 @@ ip
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
 |   ``addr``    |                               | informacje o adresacji i własnościach interfejsów |
-|     addr       |   ``ip addr``                 | informacja o wszystkich interfejsach              |
-|     addr       |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
-|   ``link``    |     ip link set dev eth0 down | służy do konfigurowania, włączania i zarządzania urządzeniami sieciowymi oraz urządzeniami wirtualnymi warstwy sieci |
-|   ``route``   | ip route add default via 192.168.0.1 | służy do zarządzania tablicami routingu wewnątrz jądra. Pozwala na dodawanie, usuwanie i modyfikowanie tras. Składnia polecenia wyświetlana za pomocą polecenia `ip route help`: |
-|   ``maddr``   | ip maddr [ add , del ] MULTIADDR dev STRING | Multicast addresses management |
-|   ``neigh``   |  ip neigh { add , del , change , replace } | ommand manipulates neighbour objects that establish
+|     ``addr``  |   ``ip addr``                 | informacja o wszystkich interfejsach              |
+|     ``addr``  |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
+|   ``link``    |  ``ip link set dev eth0 down``| służy do konfigurowania, włączania i zarządzania urządzeniami sieciowymi oraz urządzeniami wirtualnymi warstwy sieci |
+|   ``route``   | ``ip route add default via 192.168.0.1`` | służy do zarządzania tablicami routingu wewnątrz jądra. Pozwala na dodawanie, usuwanie i modyfikowanie tras. Składnia polecenia wyświetlana za pomocą polecenia `ip route help`: |
+|   ``maddr``   | ``ip maddr [ add , del ] MULTIADDR dev STRING`` | Multicast addresses management |
+|   ``neigh``   |  ``ip neigh { add , del , change , replace }`` | Command manipulates neighbour objects that establish
        bindings between protocol addresses and link layer addresses for
        hosts sharing the same link.  Neighbour entries are organized into
        tables. The IPv4 neighbour table is also known by another name - the
-       ARP table. |
-|   ``help``    | ip help, ip addr help, ip link help, ip neigh help | Display a list of commands and arguments for
+       ARP table |
+|   ``help``    | ``ip help, ip addr help, ip link help, ip neigh help`` | Display a list of commands and arguments for
 each subcommand |
 
 

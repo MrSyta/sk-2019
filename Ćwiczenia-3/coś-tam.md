@@ -43,8 +43,8 @@ each subcommand |
 Notatki
 ------------
 
-curl -X POST -d '{"text": ":D"}' http://172.16.100.10:8888/chat
-ip addr add 172.16.100.11/24 dev enp0s3
+*curl -X POST -d '{"text": ":D"}' http://172.16.100.10:8888/chat
+*ip addr add 172.16.100.11/24 dev enp0s3
 
 
 

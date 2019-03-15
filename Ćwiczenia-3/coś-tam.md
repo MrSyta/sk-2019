@@ -27,7 +27,7 @@ ip
 |   ``addr``    |                               | infirmacje o adresacji i własnościach interfejsów |
 |               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
-|   ``link``    |                               |  |
+|   ``link``    |                               | służy do konfigurowania, włączania i zarządzania urządzeniami sieciowymi oraz urządzeniami wirtualnymi warstwy sieci.  |
 |   ``route``   |  | |
 |   ``maddr``   |  | |
 |   ``neigh``   |  | |

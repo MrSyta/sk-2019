@@ -31,8 +31,7 @@ ip
 |   ``route``   | ``ip route add default via 192.168.0.1`` | służy do zarządzania tablicami routingu wewnątrz jądra. Pozwala na dodawanie, usuwanie i modyfikowanie tras. Składnia polecenia wyświetlana za pomocą polecenia `ip route help`: |
 |   ``maddr``   | ``ip maddr [ add , del ] MULTIADDR dev STRING`` | Multicast addresses management |
 |   ``neigh``   |  ``ip neigh { add , del , change , replace }`` | Command manipulates neighbour objects that establish bindings between protocol addresses and link layer addresses for hosts sharing the same link.  Neighbour entries are organized into tables. The IPv4 neighbour table is also known by another name - the ARP table |
-|   ``help``    | ``ip help, ip addr help, ip link help, ip neigh help`` | Display a list of commands and arguments for
-each subcommand |
+|   ``help``    | ``ip help, ip addr help, ip link help, ip neigh help`` | Display a list of commands and arguments for each subcommand |
 
 
 

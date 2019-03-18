@@ -39,3 +39,11 @@ Zadanie do domu
   * debian -> centos lub centos -> debian
   * zapewnij poprawną komunikację pomiędzy PC3 -> PC1
   
+ Notatki
+  ------------------
+  PC0
+  * echo 1 > /proc/sys/net/ipv4/ip_forward
+  * ip route add 172.16.100.0/24 dev enp0s3
+  
+  PC3
+  * ip route add default via 10.0.10.1

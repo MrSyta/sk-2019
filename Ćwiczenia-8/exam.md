@@ -35,6 +35,8 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
        * ip link set enp0s3 up
        * ip route add default via 172.22.160.1
        
+       **Diagram**
+       --------------
        
           * ![diagram](diagram.png)
        

@@ -12,5 +12,5 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
    
    
    
-   2. Rozwiązanie
+ ![Rozwiązanie]
  

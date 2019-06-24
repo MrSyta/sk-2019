@@ -37,7 +37,7 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
        * ip route add default via 172.22.160.1
        
        
-       **Działa**
+       **Działa!!**
        --------------------
        ![PC1](PC1.png)
        

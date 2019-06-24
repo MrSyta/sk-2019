@@ -36,6 +36,11 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
        * ip link set enp0s3 up
        * ip route add default via 172.22.160.1
        
+       
+       **Działa**
+       --------------------
+       ![PC1](PC1.png)
+       
        **Diagram**
        --------------
        

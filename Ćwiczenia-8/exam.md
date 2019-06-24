@@ -38,7 +38,7 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
        **Diagram**
        --------------
        
-          * ![diagram](diagram.png)
+        ![diagram](diagram.png)
        
        
        

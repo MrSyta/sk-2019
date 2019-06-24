@@ -21,8 +21,9 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
        * ip a add 172.22.160.1/23 dev enp0s9
        * ip link set enp0s8 up
        * ip link set enp0s9 up
-       * nano /etc/sysctl.conf odkomentowac linijkę net.ipv4.ip_forward=1
-       * ![PC0](PC0.png)
+       * echo 1 > /proc/sys/net/ipv4//ip_forward
+       * iptables -t nat -A POSTROUTING -s 172.22.128.0/19 -o enp0s3 -j MASQUERADE
+       * iptables -t nat -A POSTROUTING -s 172.22.160.0/23 -o enp0s3 -j MASQUERADE
            
           
    4. PC1:

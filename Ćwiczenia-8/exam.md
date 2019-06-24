@@ -10,7 +10,21 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
    * Dokonaj takiego podziału sieci o adresie ``172.22.128.0/17`` aby w ``LAN1`` można było zaadresować ``500`` adresów natomiast w LAN2 ``5000`` adresów    
    * Przygotuj dokumentację powyższej architektury w formie graficznej w programie ``DIA``
    
+   **Rozwiązanie**
+   -----------------
    
-   
- ![Rozwiązanie]
+   1. Podział adresu 172.22.128.0/17 na 2 podsieci o adresach LAN1(172.22.128.0/19) i   LAN2(172.22.160.0/23) bo 2^(32-19)-2=8190 i 2^(32-23)-2=510
+   2. Tworzymy 3 sieci NAT, LAN1, LAN2 i trzy VM PC0, PC1, PC2
+   3. PC0 słuzy jako router :
+       a. NAT enp0s3
+       b. ip a add 172.22.128.1/19 dev enp0s8
+       c. ip a add 172.22.160.1/23 dev enp0s9
+       d. ip link set enp0s8 up
+       e. ip link set enp0s9 up
+       f. nano /etc/sysctl.conf odkomentowac linijkę ip 
+          
+   4. PC1 :
+       a. ip a add 172.22.128.1/19 dev enp0s3
+       b. ip link set enp0s3 up
+       c. ip route add default via 172.22.128.1/19
  

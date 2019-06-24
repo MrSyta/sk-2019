@@ -13,7 +13,7 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
    **Rozwiązanie**
    -----------------
    
-   1. Podział adresu 172.22.128.0/17 na 2 podsieci o adresach LAN1(172.22.128.0/19) i   LAN2(172.22.160.0/23) bo 2^(32-19)-2=8190 i 2^(32-23)-2=510
+   1. Podział adresu 172.22.128.0/17 na 2 podsieci o adresach LAN1(172.22.160.0/23) i   LAN2(172.22.128.0/19) bo 2^(32-19)-2=8190 i 2^(32-23)-2=510
    2. Tworzymy 3 sieci NAT, LAN1, LAN2 i trzy VM PC0, PC1, PC2
    3. PC0 słuzy jako router :
        * NAT enp0s3

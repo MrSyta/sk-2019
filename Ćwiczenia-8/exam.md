@@ -21,12 +21,26 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
        * ip a add 172.22.160.1/23 dev enp0s9
        * ip link set enp0s8 up
        * ip link set enp0s9 up
-       * nano /etc/sysctl.conf odkomentowac linijkę ip
+       * nano /etc/sysctl.conf odkomentowac linijkę net.ipv4.ip_forward=1
        * ![PC0](PC0.png)
            
           
    4. PC1:
        * ip a add 172.22.128.1/19 dev enp0s3
        * ip link set enp0s3 up
-       * ip route add default via 172.22.128.1/19
+       * ip route add default via 172.22.128.1
+       
+   5. PC2:
+       * ip a add 172.22.160.1/23 dev enp0s3
+       * ip link set enp0s3 up
+       * ip route add default via 172.22.160.1
+       
+       
+       
+       
+       
+     
+       
+       
+       
  

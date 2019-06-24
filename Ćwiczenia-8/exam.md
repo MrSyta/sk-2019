@@ -36,6 +36,9 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
        * ip route add default via 172.22.160.1
        
        
+          * ![diagram](diagram.png)
+       
+       
        
        
        

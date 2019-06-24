@@ -21,7 +21,9 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
        c. ip a add 172.22.160.1/23 dev enp0s9
        d. ip link set enp0s8 up
        e. ip link set enp0s9 up
-       f. nano /etc/sysctl.conf odkomentowac linijkę ip 
+       f. nano /etc/sysctl.conf odkomentowac linijkę ip
+       ![PC0](PC0.png)
+           
           
    4. PC1 :
        a. ip a add 172.22.128.1/19 dev enp0s3
